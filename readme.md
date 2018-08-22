@@ -10,12 +10,12 @@
     "root": "projects/iwe8-core",
     "projectType": "library",
     "architect": {
-    "build": {
-        "builder": "iwe7-builder:nestjs",
-        "options": {
-        "tsConfig": "projects/iwe8-core/tsconfig.lib.json"
+        "build": {
+            "builder": "iwe7-builder:nestjs",
+            "options": {
+                "tsConfig": "projects/iwe8-core/tsconfig.lib.json"
+            }
         }
-    }
     }
 },
 ```
