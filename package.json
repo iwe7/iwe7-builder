@@ -1,14 +1,15 @@
 {
   "name": "iwe7-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "imeepos",
     "email": "1037483576@qq.com"
   },
   "builders": "builders.json",
   "dependencies": {
+    "@angular-devkit/core": "^0.7.4",
+    "iwe7-builder": "^1.0.0",
     "iwe7-ts-compiler": "^0.1.5",
-    "rxjs": "^6.0.0",
-    "@angular-devkit/core": "^0.7.4"
+    "rxjs": "^6.0.0"
   }
 }
