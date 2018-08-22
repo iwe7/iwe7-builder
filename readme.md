@@ -3,10 +3,15 @@
 #### builders.nestjs
 > 用angular/cli编译nestjs应用
 
-- 配置angular.json
+- 新建module
+```
+ng g lib iwe8-core
+```
+
+- 修改配置angular.json
 
 ```json
-"modulename": {
+"iwe8-core": {
     "root": "projects/iwe8-core",
     "projectType": "library",
     "architect": {
@@ -19,7 +24,8 @@
     }
 },
 ```
+
 - 运行
 ```
-ng run modulename:build
+ng run iwe8-core:build
 ```
